@@ -1,0 +1,47 @@
+# Системные файлы
+.idea/
+.vscode/
+*.DS_Store
+*.log
+*.cache
+
+# Сгенерированные файлы
+/public/assets/
+/public/css/
+/public/js/
+/public/cache/
+/public/.htaccess
+
+# Сессии и временные файлы
+/tmp/*
+/logs/*
+/cache/*
+
+# Composer файлы
+/vendor/
+
+# Пакеты Node.js (если используются)
+/node_modules/
+
+# Файлы конфигурации
+.env
+.env.*.local
+*.local.php
+
+# Phalcon-specific
+# Исключите скомпилированные расширения (если компилируется через C или Zephir)
+*.o
+*.lo
+*.la
+*.a
+*.so
+
+# Phalcon сгенерированные файлы
+/phalcon/build/
+/phalcon/cache/
+/phalcon/generated/
+
+# Docker файлы (если используете Docker)
+docker-compose.override.yml
+docker-compose.yml
+.env.docker
